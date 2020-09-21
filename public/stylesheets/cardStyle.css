@@ -1,0 +1,93 @@
+
+
+.container-cards{
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20% ; 
+    margin: 0 2%;
+    width: 80%;
+    margin: 3% auto auto auto;
+    
+}
+
+
+.container-card{
+    display:grid;  
+    border-radius: 5px;
+    margin: auto auto;
+    background-color: #ffffff;
+    margin: 0 1%;
+    border: 0.01rem solid grey;
+    height: 300px;
+    margin:2% 1%;
+    box-sizing: border-box;
+}
+.contenedorImagen{
+    width:12em;
+    height:12em;
+    margin: auto auto; 
+}
+#image{
+    display: block;
+    margin: auto auto;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.marca{
+    font-size:2rem;
+}
+.selectKg{
+    border-radius:10px;
+}
+
+.container-letters {
+    align-items: center;
+   width:100%;
+    margin:auto auto;
+    display:flex;
+    justify-content: space-evenly;
+    
+    
+}
+.letters{
+    font-size:1rem;
+    margin:auto auto;
+}
+.comprar{
+    display:none;
+}
+
+.btn-comprar{
+    border-radius: 5px;
+    background-color: #56bf56;
+    width: 90%;
+    margin: 0 auto; 
+    display:block;
+}
+
+
+
+
+
+@media (max-width: 1550px ) {
+    .container-cards{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+}
+@media (max-width: 1150px ) {
+    .container-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+@media (max-width: 500px ) {
+    .container-cards{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+

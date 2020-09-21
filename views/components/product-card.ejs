@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/cardStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-cards">
+        <% for(p of productos){%>
+        <div class="container-card">
+            <div class="contenedorImagen">
+                <img id="image" src="<%-p.imagen%>">
+            </div>
+            <div class="container-letters">
+                <div>
+                <h2 class="letters marca"><%-p.marca%></h2>
+                <h2 class="letters"><%-p.nombre%></h2>
+                </div>
+                <div>
+                <select class="selectKg"  name="select">
+                    <% p.precios.forEach(price =>{ %> 
+                      <option class="kg" value="<%=price.precio%>"><%=price.kg%></li> 
+                     <%  }) %>
+                </select>
+                <h2 class="letters"><%-p.precios[0].precio%></h2>
+                </div> 
+            </div>
+            <div class="comprar"><button class="btn-comprar">Agregar al carrito</button></div>
+
+             
+        </div>
+       <% }%>
+    </div>
+
+</body>
+<script src="/javascripts/product-card.js"></script>
+</html>
