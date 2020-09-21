@@ -37,7 +37,7 @@ const productos = [
   },
   {
     marca:"Royal Canin",
-    nombre: "Club Performance Adulto X 20KG",
+    nombre: "Club Performance Adulto",
     imagen: "/images/trash/performance.png",
     precios: [{kg: "10kg", precio: "s"}, {kg: "8kg", precio: "d"}],
   },

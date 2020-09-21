@@ -17,7 +17,7 @@
     background-color: #ffffff;
     margin: 0 1%;
     border: 0.01rem solid grey;
-    height: 300px;
+    height: 350px;
     margin:2% 1%;
     box-sizing: border-box;
 }
@@ -34,11 +34,11 @@
     object-fit: cover;
     
 }
-.marca{
-    font-size:2rem;
-}
+
 .selectKg{
     border-radius:10px;
+    font-size:1.3rem;
+    font-family: sans-serif;
 }
 
 .container-letters {
@@ -51,19 +51,28 @@
     
 }
 .letters{
-    font-size:1rem;
-    margin:auto auto;
+    font-size:1.3rem;
+    font-family: sans-serif;
+}
+.item{
+    margin:3px 0;
+}
+#nombre{
+    font-size:1.2rem;
+}
+
+#container-precio{
+    border: 1px solid #000;
+    border-radius:9px;
+    background-color:#ffff70;
+    width:100%;
+    text-align: center;
 }
 .comprar{
     display:none;
-}
-
-.btn-comprar{
-    border-radius: 5px;
-    background-color: #56bf56;
-    width: 90%;
     margin: 0 auto; 
-    display:block;
+    width: 100%;
+    text-align: center;
 }
 
 
