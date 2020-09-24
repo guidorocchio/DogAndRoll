@@ -15,13 +15,18 @@
 }
 .image-container{
     width:12em;
-    margin: auto auto; 
+    display:flex;
+    flex-direction: column;
+    margin: auto auto;
+    height: 100%; 
+    align-content: center;
 }
 #imagen{
-    display: block;
+
+    display:block;
     margin: auto auto;
-    width:90%;
-    height: 100%;
+    width: 90%;
+    
 
 }
 
