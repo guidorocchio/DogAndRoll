@@ -2,8 +2,7 @@
 
 .container-cards{
     display: grid;
-    grid-template-columns:  20% 20% 20% 20% 20% ; 
-    margin: 0 2%;
+    grid-template-columns:  20% 20% 20% 20% 20% 20%; 
     width: 80%;
     margin: 3% auto auto auto;
     
@@ -17,20 +16,20 @@
     background-color: #ffffff;
     margin: 0 1%;
     border: 0.01rem solid grey;
-    height: 350px;
+    height: 390px;
     margin:2% 1%;
     box-sizing: border-box;
 }
 .contenedorImagen{
     width:12em;
-    height:12em;
+  
     margin: auto auto; 
 }
 #image{
     display: block;
     margin: auto auto;
-    width: 150px;
-    height: 200px;
+    width: 170px;
+    height: 260px;
     object-fit: cover;
     
 }
@@ -62,7 +61,7 @@
 }
 
 #container-precio{
-    border: 1px solid #000;
+ 
     border-radius:9px;
     background-color:#ffff70;
     width:100%;

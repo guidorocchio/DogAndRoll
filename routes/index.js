@@ -2,6 +2,40 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
+const marcas =[
+{
+  marca:"Royal Canin",
+  imagen: "/images/marcas/royal.png",
+},
+{
+  marca:"Royal Canin",
+  imagen: "/images/marcas/proplan.png",
+},
+{
+  marca:"Royal Canin",
+  imagen: "/images/marcas/royal.png",
+},
+{
+  marca:"Royal Canin",
+  imagen:"/images/marcas/royal.png",
+},
+{
+  marca:"Royal Canin",
+  imagen:"/images/marcas/royal.png",
+},
+{
+  marca:"Royal Canin",
+  imagen:"/images/marcas/royal.png",
+},
+{
+  marca:"Royal Canin",
+  imagen:"/images/marcas/royal.png",
+},
+{
+  marca:"Royal Canin",
+  imagen:"/images/marcas/royal.png",
+}
+];
 
 const productos = [
   {
@@ -107,12 +141,12 @@ const productos = [
 ]
 
 
-
-
-
-
 router.get('/', function(req, res, next) {
-  res.render('index', {productos});
+  res.render('index', {productos, marcas});
 });
+
+
+
+
 
 module.exports = router;

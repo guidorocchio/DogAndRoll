@@ -1,0 +1,33 @@
+#container-brands{
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20% 20%; 
+    width: 80%;
+    margin: 3% auto auto auto;
+    
+}
+.brand-container{
+    background-color: #ffff;
+    border-radius: 5px;
+    border: 0.01rem solid grey;
+    height: 190px;
+    margin:2% 1%;
+    box-sizing: border-box;
+}
+.image-container{
+    width:12em;
+    margin: auto auto; 
+}
+#imagen{
+    display: block;
+    margin: auto auto;
+    width:90%;
+    height: 100%;
+
+}
+
+@media (max-width: 1550px ) {
+    #container-brands{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+}
